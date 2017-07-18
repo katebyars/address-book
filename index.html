@@ -23,6 +23,27 @@
               <label for="new-last-name">Last name</label>
               <input type="text" class="form-control" id="new-last-name">
             </div>
+            <div id="new-addresses">
+              <div class="new-address">
+                <div class="form-group">
+                  <label for="new-address-street">Street Number and Name</label>
+                  <input type="text" class="form-control new-address-street">
+                </div>
+                <div class="form-group">
+                  <label for="new-address-city">City</label>
+                  <input type="text" class="form-control new-address-city">
+                </div>
+                <div class="form-group">
+                  <label for="new-address-state">State</label>
+                  <input type="text" class="form-control new-address-state">
+                </div>
+                <div class="form-group">
+                  <label for="new-address-zip">Zip Code</label>
+                  <input type="text" class="form-control new-address-zip">
+                </div>
+              </div>
+            </div>
+
 
             <button type="submit" class="btn">Add</button>
           </form>
@@ -31,6 +52,7 @@
           <ul id="contacts">
 
           </ul>
+
         </div>
         <div class="col-md-6">
           <div id="show-contact">
@@ -38,6 +60,9 @@
 
             <p>First name: <span class="first-name"></span></p>
             <p>Last name: <span class="last-name"></span></p>
+            <p>Address: <span class="address"></span></p>
+            <ul id="addresses">
+            </ul>
           </div>
         </div>
       </div>
